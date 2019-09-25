@@ -25,6 +25,9 @@ while pikachu_hp > 0 and enemy_hp > 0:
     elif sel_attack == "Bola voltio":
         print("Has utilizado Bola voltio")
         enemy_hp -= 12
+    else:
+        print("El ataque no es valido")
+        enemy_hp -= 0
 
     print("La vida del {} es de {}".format(pokemon_name, enemy_hp))
     print(("{} te ha hecho {} de daño").format(pokemon_name, enemy_atk))
