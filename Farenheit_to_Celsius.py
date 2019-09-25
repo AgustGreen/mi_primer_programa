@@ -2,6 +2,6 @@ far_temp = int(input("Dime la temperatura en grados Farenheit y te la convertir�
 
 cel_temp = ((far_temp - 32) * 5/9)
 
-print(cel_temp)
+print("El resultado de la conversión es: {} grados centígrados.".format(cel_temp))
 
 
